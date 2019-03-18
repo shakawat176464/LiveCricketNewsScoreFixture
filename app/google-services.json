@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "140357068318",
+    "firebase_url": "https://livecricketnews-1d305.firebaseio.com",
+    "project_id": "livecricketnews-1d305",
+    "storage_bucket": "livecricketnews-1d305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140357068318:android:2bfc6869470ef152",
+        "android_client_info": {
+          "package_name": "me.h.shakawat.livecricketnewsscorefixture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140357068318-cm0fcc03amdm0funrsv8ca27jlhoubrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.h.shakawat.livecricketnewsscorefixture",
+            "certificate_hash": "bad0c61279a4d9d5beb4f779a4cb890b87c27031"
+          }
+        },
+        {
+          "client_id": "140357068318-hc21unflspnlim14vd2u2qolq58r9v09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgZKJ5_dmYOKJhgoIj3_JV6TnOW88sYw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140357068318-hc21unflspnlim14vd2u2qolq58r9v09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

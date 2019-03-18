@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Live"
+        android:icon="@drawable/ic_live_score"
+        android:id="@+id/bottom_live_id"
+        />
+    <item
+        android:title="Recent"
+        android:icon="@drawable/ic_recent"
+        android:id="@+id/bottom_recent_id"
+        />
+    <item
+        android:title="Upcoming"
+        android:icon="@drawable/ic_upcoming_icon"
+        android:id="@+id/bottom_upcoming_id"
+        />
+
+</menu>

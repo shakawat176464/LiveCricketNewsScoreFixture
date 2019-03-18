@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#39796b</color>
+    <color name="colorPrimaryDark">#245147</color>
+    <color name="colorAccent">#A9d440</color>
+
+
+    <color name="btnSignUp">#39796b</color>
+    <color name="btnSignActive">#A9d440</color>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="tabselectedMyColor">#d1d1d1</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+    <color name="tabSelectedcolor">#d9bbb1</color>
+
+
+    <color name="cardBackground">#ededed</color>
+    <color name="liveColor">#e30a0a</color>
+</resources>

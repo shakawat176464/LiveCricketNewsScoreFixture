@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="6dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/worldCupNewsImgId"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:weightSum="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/worldCupNewsHeadertxtId"
+                android:layout_weight="4.5"
+                android:padding="6dp"
+                android:textSize="15dp"
+                android:text="@string/header_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1.4"
+                android:weightSum="5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/worldCupNewsTimetxtId"
+                    android:layout_weight="3.5"
+                    android:padding="5dp"
+                    android:textSize="13dp"
+                    android:text="@string/txt_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="Details"
+                    android:background="@android:color/black"
+                    android:layout_weight="1.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

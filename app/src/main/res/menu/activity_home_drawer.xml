@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_worldCup_Id"
+            android:title="World Cup 2019" />
+        <item
+            android:id="@+id/nav_IPL"
+            android:title="IPL 2019" />
+        <item
+            android:id="@+id/nav_BPL"
+            android:title="BPL 2019" />
+        <item
+            android:id="@+id/nav_PSL"
+            android:title="PSL 2018" />
+        <item
+            android:id="@+id/nav_BBL"
+            android:title="BBL 2018-19" />
+        <item
+            android:id="@+id/nav_WBBL"
+            android:title="WBBL2018-19" />
+        <item
+            android:id="@+id/nav_CPL"
+            android:title="CPL 2019" />
+        <item
+            android:id="@+id/nav_T10"
+            android:title="T10 2018" />
+        <item
+            android:id="@+id/nav_exit"
+            android:title="Exit" />
+
+    </group>
+    
+</menu>

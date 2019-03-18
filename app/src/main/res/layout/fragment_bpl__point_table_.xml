@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    tools:context=".BPL_Fragment.BPL_PointTable_Fragment">
+
+    <!--<TableRow
+        android:id="@+id/headerId"
+        android:background="#ff22"
+        >
+
+        <TextView
+            android:text="Team Name"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="MA  "
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="Win  "
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="Los  "
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="Tie  "
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="Poi  "
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="NRR"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </TableRow>-->
+
+        <android.support.v7.widget.CardView
+            app:cardElevation="2dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="4dp"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="TEAM"
+                    android:layout_weight="2.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="M"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="W"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="L"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="T"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="P"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="NRR"
+                    android:layout_weight="2.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/bplPointTableRecyclerViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
